@@ -1,0 +1,7 @@
+op = "s"
+cont = 1
+while(op=="s"):
+    print(cont, "-Passagem pelo laço de repetição.")
+    op = input ("Deseja repitir? informe [s] para sim ou [n] para não: ")
+    cont = cont + 1
+    print("%s" % (cont))
